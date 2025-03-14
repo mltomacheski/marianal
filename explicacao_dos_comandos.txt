@@ -1,0 +1,31 @@
+comandos para fazer commit 
+
+cd Doc ou Dow - entrar na pasta que deseja criar o projeto;
+mkdir + nome da pasta - criar pasta;
+ls - listar o conteúdo;
+cd + nome da pasta -entrar na pasta que acabei de criar; 
+criaram um projeto no github com o mesmo nome da pasta;
+git init - inicializar o repositório; 
+git config -- list - para verificar se está com o usuário e o email correto,
+fazer isso sempre que for inicializar o repositório
+git remote add origin + link; 
+git branch -M main; 
+git status; 
+git add . ; 
+git status; 
+git commit -m "Primeiro commit"; 
+git log - visualizar o commit; 
+git push -u origin main - usado somente no primeiro commit; 
+
+comandos para branch
+git branch - visualizar a branch; 
+git branch + nome da branch - criar nova branch; 
+git branch; 
+git checkout + nome da branch - mudar de branch; 
+git branch; 
+code . - abrir o visual code na branch certa e com o arquivo correto, podendo fazer a edição do código; 
+git add . ; 
+git commit -m "oque eu fiz na branch que estava trabalhando";
+git checkout main - voltar para branch principal; 
+git merge + nome da branch que eu já trabalhei - para mesclar as duas branches; 
+git push
